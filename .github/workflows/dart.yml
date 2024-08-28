@@ -28,7 +28,7 @@ jobs:
         uses: actions/setup-java@v3
         with:
           distribution: 'zulu'
-          java-version: '12'
+          java-version: '11.0.10+9'
 
       # Step 3: Set up Flutter
       - name: Set up Flutter
